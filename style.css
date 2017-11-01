@@ -1,0 +1,26 @@
+[class*="col-"]{
+	padding:3%;
+}
+#ques{
+	background-color: #fffcea;
+}
+#options{
+	background-color: yellow;
+}
+#right{
+	background-color: #fffcea;
+	height: 71vh;
+}
+#left{
+	background-color: yellow;
+	width:100%;
+	height: 71vh;
+}
+#grad1 {
+	height: 100vh;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #f76276 , #f70929); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f76276, #f70929); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f76276,#f70929); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#f76276 , #f70929); /* Standard syntax (must be last) */
+}
