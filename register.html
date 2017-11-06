@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Blood Bank</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+	<div class="container">
+		
+		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	
+		<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Blood Bank"></a>
+		
+		<div class="nav-collapse collapse navbar-responsive-collapse" id="mainnav">
+			<ul class="nav navbar-nav">
+				<li >
+					<a href="index.html">Home</a>
+				</li>
+				<li >
+					<a href="index.html">Blood camps</a>
+				</li>
+				<li >
+					<a href="contact.html">Request blood</a>
+				</li>
+				<li  >
+					<a href="team.html">Project team</a>
+				</li>
+			</ul>
+			
+					
+			<ul class="nav navbar-nav pull-right">
+				<form class="navbar-form pull-left">
+					<input type="text" class="form-control" placeholder="user id" id="uname">
+					<input type="password" class="form-control" placeholder="password" id="upass">
+					<button type="submit" class="btn btn-primary">Login</button>
+				</form><!-- end navbar-form -->
+				<li class="divider"></li>
+				<li class="active">
+							<a href="register.html">Register</a>
+				</li>
+			</ul><!-- end nav pull-right -->
+		</div><!-- end nav-collapse -->
+	
+	</div><!-- end container -->
+</div><!-- end navbar -->
+
+
+
+<div class="container">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                        <span class="help-block">Last Name, First Name, eg.: Smith, Harry</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Gender</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="femaleRadio" value="Female">Female
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="maleRadio" value="Male">Male
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+              
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+
+
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Blood Seva is a student project by a group of nit agartala students. Main aim of this project is to provide an online interface for blood donors and blood seekers to meet in a very less amount of time</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+								<li><a href="index.html">Home</a></li>
+							<li><a href="register.html">Register</a></li>
+							<li><a href="contact.html">Request Blood</a></li>
+							<li><a href="index.html">Blood Camps</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
