@@ -1,34 +1,84 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>blood bank system</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<div id="grad1">
-	
+	<head>
+		<title>Blood Bank</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
 	<div class="container">
-		<div class ="row" >
-			<div class="col-sm-12" id="top">
-				<a href="index.html"><img src="logo.png" alt="logo" style="float:left;width:80px;height:150px;"></a>
-				<ul class="topnav">
-				  <li><a class="active" href="index.html">Home</a></li>
-				  <li><a href="news.html">News</a></li>
-				  <li><a href="contact.html">Contact</a></li>
-				</ul>
+		
+		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	
+		<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Blood Bank"></a>
+		
+		<div class="nav-collapse collapse navbar-responsive-collapse" id="mainnav">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li >
+					<a href="news.html">Blood camps</a>
+				</li>
+				<li >
+					<a href="contact.html">Request blood</a>
+				</li>
+			</ul>
+			
+					
+			<ul class="nav navbar-nav pull-right">
+				<form class="navbar-form pull-left">
+					<input type="text" class="form-control" placeholder="user id" id="uname">
+					<input type="password" class="form-control" placeholder="password" id="upass">
+					<button type="submit" class="btn btn-primary">Login</button>
+				</form><!-- end navbar-form -->
+				<li class="divider"></li>
+				<li>
+							<a href="register.html">Register</a>
+				</li>
+			</ul><!-- end nav pull-right -->
+		</div><!-- end nav-collapse -->
+	
+	</div><!-- end container -->
+</div><!-- end navbar -->
+
+			<div class="carousel slide" id="mycarousel">
+
 			</div>
+			<div class="row" id="features">
+				
+			</div>
+
+			<div class="row" id="info">
+			</div>
+
+
 		</div>
-		<div class="container">
+		<div class="footer">
 			
 		</div>
-	</div>
-	</div>
 
-</body>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="includes/js/script.js"></script>
+	
+	</body>
 </html>
+
