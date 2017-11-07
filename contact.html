@@ -59,17 +59,56 @@
 		</div><!-- end nav-collapse -->
 	
 	</div><!-- end container -->
+
+        </div> <!-- ./container -->
 </div><!-- end navbar -->
 
-			<div class="row" id="features">
-				
-			</div>
 
-			<div class="row" id="info">
-			</div>
-
+			<div class="container">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                        <span class="help-block">First Name, Last Name, ex: Sachin Chand</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="add" class="col-sm-3 control-label">Address</label>
+                    <div class="col-sm-9">
+                    	<textarea class="form-control" rows="5" id="address"  placeholder="Address" autofocus></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="number" class="col-sm-3 control-label">Phone Number</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="number" placeholder="Number" class="form-control">
+                    </div>
+                </div>
+                  <div class="form-group">
+                    <label for="selectlist" class="col-sm-3 control-label">Blood Group Required</label>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="sellist">
+					        <option>O-</option>
+					        <option>O+</option>
+					        <option>A-</option>
+					    	<option>A+</option>
+					    	<option>B-</option>
+					    	<option>B+</option>
+					    	<option>AB-</option>
+					    	<option>AB+</option>
+					    </select>
+                    </div>
+                </div>                
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button type="submit" class="btn btn-info btn-block">Find Donors</button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
 
 		</div>
+
 		<footer>
 			<div class="container">
 				<div class="row">
